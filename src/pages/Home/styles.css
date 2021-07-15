@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px){
+     .blueLogo {
+        transform: scale(0.75);
+        
+    } 
+}
+
+.landing {
+    background-color: #FAF0FF;
+    display: flex;
+}
