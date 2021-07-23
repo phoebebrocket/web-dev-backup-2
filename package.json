@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://stunning-memory-a8c35678.pages.github.io/",
+  "homepage" : "https://phoebebrocket.github.io/bbk-assignment",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build",

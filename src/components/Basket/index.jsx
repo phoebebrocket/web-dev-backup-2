@@ -19,16 +19,16 @@ const Basket = (props) => {
                 {cartItems.map((item) => (
                     <div key={item.id} className="row">
                         <div className="item-name">{item.name}</div>
-                            <div className="item-quantity">
+                        <div className="item-quantity">
                                 <button className="adjust" onClick={() => onAdd(item)} className="add">
                                     +
                                 </button>
-                                <div className="item-price">
+                         <div className="item-price">
                                 {item.qty} x £{item.price}
-                            </div>
-                                <button className="adjust" onClick={() => onRemove(item)} className="remove">
+                        </div>
+                             <button className="adjust" onClick={() => onRemove(item)} className="remove">
                                     -
-                             </button>
+                            </button>
                         </div>
                     </div>
                 ))}
