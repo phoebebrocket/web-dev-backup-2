@@ -1,6 +1,5 @@
 import React from 'react'
 import Product from '../Product'
-import bigcookie from '../../assets/bigcookie.png'
 import './styles.css'
 
 const Main = (props) => {

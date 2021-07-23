@@ -1,5 +1,4 @@
 import React from 'react'
-import homecookies from '../../assets/homecookies.png'
 import Button from '../Button'
 import {Link } from "react-router-dom";
 
@@ -9,7 +8,7 @@ const ImageBlock = (props) => {
     return (
         <div className="block">
             <div className="image">
-                <img src={props.img} className="block-image"/>
+                <img src={props.img} className="block-image" alt={props.alt}/>
             </div>
             <div className="text">
                 <h2>{props.title}</h2>

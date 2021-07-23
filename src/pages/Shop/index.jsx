@@ -2,9 +2,8 @@ import React, {useState} from 'react'
 import Basket from '../../components/Basket'
 import Main from '../../components/Main'
 import data from '../../data'
-import Header from '../../components/Header'
 import './styles.css'
-import Button from '../../components/Button'
+
 
 
 const Shop = () => {

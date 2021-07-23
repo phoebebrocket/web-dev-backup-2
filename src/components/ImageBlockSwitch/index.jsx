@@ -20,7 +20,7 @@ const ImageBlockSwitch = (props) => {
                 </Link>
             </div>
             <div className="image">
-                <img className="block-image" src={props.img}/>
+                <img className="block-image" src={props.img} alt={props.alt}/>
             </div>
             
         </div>

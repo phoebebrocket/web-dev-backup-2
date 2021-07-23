@@ -33,6 +33,7 @@ const Home = () => {
                     name="Join the club!"
                     img={homecookies}
                     path='../../Shop'
+                    alt="cookies"
                />
                
             </div>
@@ -46,6 +47,7 @@ const Home = () => {
                     name="Let me suggest!"
                     img={cookieboxblue}
                     path='../../Flavours'
+                    alt="cookies"
                />
             </div>
 
@@ -58,6 +60,7 @@ const Home = () => {
                     name="About the club"
                     img={cookiepile}
                     path='../../About'
+                    alt="cookies"
                />
             </div>
 
