@@ -3,6 +3,8 @@ import Basket from '../../components/Basket'
 import Main from '../../components/Main'
 import data from '../../data'
 import Header from '../../components/Header'
+import './styles.css'
+import Button from '../../components/Button'
 
 
 const Shop = () => {
@@ -32,21 +34,26 @@ const Shop = () => {
    }
 
     return (
-        <div>
-            <Header countCartItems={cartItems.length}/>
-            <Main 
-                products={products}
-                onAdd={onAdd}
-            />
-            <Basket 
-                onAdd={onAdd}
-                cartItems={cartItems}
-                onRemove={onRemove}
-            />
-        </div>
+        <main className="shop-page">
+            
+            
+                <div className="products">
+                    <Main 
+                        products={products}
+                        onAdd={onAdd}
+                    />
+                    <Basket 
+                        onAdd={onAdd}
+                        cartItems={cartItems}
+                        onRemove={onRemove}
+                    />
+            </div>
+        </main>
     )
 }
 
 export default Shop
 
 // https://www.youtube.com/watch?v=AmIdY1Eb8tY
+
+// <Header countCartItems={cartItems.length}/>

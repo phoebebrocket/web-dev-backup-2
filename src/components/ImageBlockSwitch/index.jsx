@@ -1,16 +1,12 @@
 import React from 'react'
-import homecookies from '../../assets/homecookies.png'
 import Button from '../Button'
 import {Link } from "react-router-dom";
 
 import './styles.css';
 
-const ImageBlock = (props) => {
+const ImageBlockSwitch = (props) => {
     return (
         <div className="block">
-            <div className="image">
-                <img src={props.img} className="block-image"/>
-            </div>
             <div className="text">
                 <h2>{props.title}</h2>
                 <p>{props.para1}</p>
@@ -23,10 +19,13 @@ const ImageBlock = (props) => {
                     <Button name={props.name}/>
                 </Link>
             </div>
+            <div className="image">
+                <img className="block-image" src={props.img}/>
+            </div>
             
         </div>
         
     )
 }
 
-export default ImageBlock
+export default ImageBlockSwitch

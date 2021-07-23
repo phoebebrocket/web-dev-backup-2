@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Button'
-import homecookies from '../../assets/homecookies.png'
+import './styles.css'
 
 
 
@@ -8,13 +8,13 @@ const Product = (props) => {
    const {product, onAdd} = props
 
     return (
-        <div>
+        <div className="shop-product">
             <img className="small" src={product.img} alt={product.name}/>
-            <h3>{product.name}</h3>
-            <div>
-                £{product.price}
+            <div className="product-details">
+                <h3 className="product-name">{product.name}</h3>
+                <p className="product-price"> £{product.price} </p>
             </div>
-            <div>
+            <div className="product-button">
                 <Button 
                     name="Add to cart"
                     onClick={() => onAdd(product)}

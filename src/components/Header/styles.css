@@ -50,6 +50,12 @@
     display: none;
   }
 
+  .header-logo {
+    height: auto;
+    width: 70px;
+    padding-top: 80px;
+  }
+
   @media (max-width: 648px) {
     /*Mobile View */
     .header {
@@ -92,6 +98,14 @@
     }
     .mobile-menu {
         display: block;
-  }
+    }
+
+    .header-logo {
+      height: auto;
+      width: 50px;
+      padding-top: 10px;
+      margin-left: 10px;
+    }
   
   }
+

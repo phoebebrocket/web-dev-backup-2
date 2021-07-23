@@ -4,7 +4,7 @@ import './styles.css'
 function Footer() {
     return (
         <div className="footer">
-            <p>Footer</p>
+            <p className="footer-text">© Phoebe Brocket 2021</p>
         </div>
     )
 }
