@@ -1,5 +1,5 @@
 {
-  "name": "bbk-assignment",
+  "name": "web-dev-backup-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,10 +15,10 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage" : "https://phoebebrocket.github.io/bbk-assignment",
+  "homepage" : "https://phoebebrocket.github.io/web-dev-backup-2",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@svgr/webpack": "^5.5.0"
+    "@svgr/webpack": "^5.5.0",
+    "gh-pages": "^3.2.3"
   }
 }
